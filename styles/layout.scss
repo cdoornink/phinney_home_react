@@ -1,0 +1,30 @@
+.layout {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.main {
+  width: 100%;
+  padding: 0 $size-100;
+}
+
+.header {
+  width: 100%;
+  padding: 0 $size-150;
+}
+
+.offset-content {
+  margin-top: $layout-padding-normal;
+}
+
+.offset-content.-large {
+  margin-top: $layout-padding-large;
+}
+
+.offset-content.-small {
+  margin-top: $layout-padding-small;
+}
+
+.offset-content.-tiny {
+  margin-top: $layout-padding-tiny;
+}

@@ -1,0 +1,46 @@
+.header {
+  text-align: center;
+  margin: $size-250 0;
+}
+
+.logo {
+  font-family: $raleway;
+  font-size: $size-font-huge;
+  font-weight: 200;
+  position: relative;
+  margin: $size-33 0;
+}
+
+.logo.-small {
+  font-size: $size-font-small;
+  height: 18px;
+}
+
+.logo .cursive {
+  display: inline-block;
+  font-family: $bombshell;
+  font-size: $size-font-huge-bombshell;
+  position: relative;
+  top: -4px;
+  margin-right: 10px;
+}
+
+.logo.-small .cursive {
+  font-size: $size-font-small;
+  top: -3px;
+  margin-right: 5px;
+}
+
+.menu {
+  font-family: $brandon;
+  font-size: $size-font-small;
+  text-transform: uppercase;
+}
+
+.menu-item {
+  margin-right: $size-150;
+}
+
+.menu-item:last-child {
+  margin-right: 0;
+}

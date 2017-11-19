@@ -1,0 +1,61 @@
+html,
+body {
+  font-family: $avenir;
+  font-size: 16px;
+}
+
+@include mobile-breakpoint {
+  html,
+  body {
+    font-size: 12px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.huge-type {
+  font-size: $size-font-xhuge;
+}
+
+.xlarge-type {
+  font-size: $size-font-xlarge;
+}
+
+.large-type {
+  font-size: $size-font-large;
+}
+
+.medium-type {
+  font-size: $size-font-medium;
+}
+
+.normal-type {
+  font-size: $size-font-normal;
+}
+
+.small-type {
+  font-size: $size-font-small;
+}
+
+.xsmall-type {
+  font-size: $size-font-xsmall;
+}
+
+.tiny-type {
+  font-size: $size-font-tiny;
+}
+
+.primary-type {
+  color: $color-black;
+}
+
+.secondary-type {
+  color: $color-gray;
+}

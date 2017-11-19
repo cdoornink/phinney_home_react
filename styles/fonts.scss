@@ -1,0 +1,26 @@
+$avenir: "avenir", "Helvetica Neue", Helvetica, "Segoe UI", Arial,
+  "Lucida Grande", sans-serif;
+$bombshell: "bombshell", "Helvetica Neue", sans-serif;
+$brandon: "brandon", "Helvetica Neue", sans-serif;
+$raleway: "Raleway";
+
+.font-avenir {
+  font-family: $avenir;
+}
+
+.font-bombshell {
+  font-family: $bombshell;
+}
+
+.font-brandon {
+  font-family: $brandon;
+}
+
+.font-raleway {
+  font-family: $raleway;
+}
+
+@import "./fonts/avenir.scss";
+@import "./fonts/bombshell.scss";
+@import "./fonts/brandon.scss";
+// raleway is imported from google fonts in the index.html file

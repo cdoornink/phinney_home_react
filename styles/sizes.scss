@@ -1,0 +1,42 @@
+// Font Sizes
+$size-font-xhuge: 2.5rem; // 16px * 2.5     = 40px
+$size-font-huge: 2rem; // 16px * 2.0     = 32px
+$size-font-xlarge: 1.5rem; // 16px * 1.5     = 24px
+$size-font-large: 1.25rem; // 16px * 1.25    = 20px
+$size-font-medium: 1.125rem; // 16px * 1.125   = 18px
+$size-font-normal: 1rem; // 16px * 1.0     = 16px
+$size-font-small: 0.875rem; // 16px * 0.875   = 14px
+$size-font-xsmall: 0.75rem; // 16px * 0.75    = 12px
+$size-font-tiny: 0.625rem; // 16px * 0.625   = 10px
+
+$size-font-xhuge-bombshell: 2.2rem; // 16px * 2.25     = 36px
+$size-font-huge-bombshell: 1.75rem; // 16px * 1.75     = 28px
+
+// UI Sizes
+$size-250: 2.5em; // ~16px * 2.5     = 40px
+$size-200: 2em; // ~16px * 2.0     = 32px
+$size-175: 1.75em; // ~16px * 1.75    = 28px
+$size-150: 1.5em; // ~16px * 1.5     = 24px
+$size-125: 1.25em; // ~16px * 1.25    = 20px
+$size-100: 1em; // ~16px * 1.0     = 16px
+$size-90: 0.875em; // ~16px * 0.875   = 14px
+$size-80: 0.8125em; // ~16px * 0.8125  = 13px
+$size-75: 0.75em; // ~16px * 0.75    = 12px
+$size-66: 0.666em; // ~16px * 0.666   = 10.656px
+$size-50: 0.5em; // ~16px * 0.5     = 8px
+$size-33: 0.333em; // ~16px * 0.333   = 5.328px
+$size-25: 0.25em; // ~16px * 0.25    = 4px
+$size-10: 0.1em; // ~16px * 0.1     = 1.6px
+
+$layout-padding-large: 4em; // 16px * 4 = 64px;
+$layout-padding-normal: 2em; // 16px * 2 = 32px;
+$layout-padding-small: 1em; // 16px * 2 = 16px;
+$layout-padding-tiny: 0.5em; // 16px * 2 = 8px;
+
+$mobile-breakpoint: 550px;
+
+@mixin mobile-breakpoint {
+  @media (max-width: $mobile-breakpoint) {
+    @content;
+  }
+}
