@@ -11,6 +11,7 @@ $size-font-tiny: 0.625rem; // 16px * 0.625   = 10px
 
 $size-font-xhuge-bombshell: 2.2rem; // 16px * 2.25     = 36px
 $size-font-huge-bombshell: 1.75rem; // 16px * 1.75     = 28px
+$size-font-xlarge-bombshell: 1.33rem; // 16px * 1.33     = 21.3px
 
 // UI Sizes
 $size-250: 2.5em; // ~16px * 2.5     = 40px
@@ -33,10 +34,24 @@ $layout-padding-normal: 2em; // 16px * 2 = 32px;
 $layout-padding-small: 1em; // 16px * 2 = 16px;
 $layout-padding-tiny: 0.5em; // 16px * 2 = 8px;
 
-$mobile-breakpoint: 550px;
+$mobile-breakpoint: 650px;
 
 @mixin mobile-breakpoint {
   @media (max-width: $mobile-breakpoint) {
     @content;
+  }
+}
+
+.show-small-only {
+  display: none !important;
+}
+
+@include mobile-breakpoint {
+  .hide-small {
+    display: none !important;
+  }
+
+  .show-small-only {
+    display: inline-block !important;
   }
 }

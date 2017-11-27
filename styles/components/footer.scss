@@ -1,17 +1,28 @@
 .footer {
   text-align: center;
-  margin: $size-250 0;
-  font-size: $size-font-small;
+  margin: 0 auto;
+  font-size: 14px; // fixed font for footer text
+  color: $color-gray;
+  padding: $layout-padding-large 0;
+  width: calc(100% - 2em);
+  max-width: 400px;
+  // border-top: 1px solid #e8e8e8;
 }
 
-.footer .info {
-  font-family: $brandon;
+.logo.-small {
+  font-size: 14px;
+  height: 23px;
   font-weight: 600;
-  color: $color-gray;
+}
+
+.logo.-small .cursive {
+  font-size: 14px;
+  top: -3px;
+  margin-right: 5px;
 }
 
 .social-icon,
 .social-icon img {
-  width: $size-125;
-  margin: 0 5px;
+  width: $size-250;
+  margin: 0 6px;
 }

@@ -8,12 +8,10 @@
   font-size: $size-font-huge;
   font-weight: 200;
   position: relative;
-  margin: $size-33 0;
 }
 
-.logo.-small {
-  font-size: $size-font-small;
-  height: 18px;
+.header .logo {
+  margin: $size-33 0;
 }
 
 .logo .cursive {
@@ -23,12 +21,6 @@
   position: relative;
   top: -4px;
   margin-right: 10px;
-}
-
-.logo.-small .cursive {
-  font-size: $size-font-small;
-  top: -3px;
-  margin-right: 5px;
 }
 
 .menu {
@@ -41,6 +33,32 @@
   margin-right: $size-150;
 }
 
+.menu-item:hover {
+  color: $color-gray;
+}
+
+.menu-item.-active:hover {
+  color: $color-black;
+}
+
+.menu-item.-active {
+  border-bottom: 2px solid $color-green;
+}
+
 .menu-item:last-child {
   margin-right: 0;
+}
+
+@include mobile-breakpoint {
+  .header .logo {
+    font-size: $size-font-xlarge;
+  }
+
+  .header .logo .cursive {
+    font-size: $size-font-xlarge-bombshell;
+  }
+
+  .menu {
+    font-size: $size-font-xsmall;
+  }
 }

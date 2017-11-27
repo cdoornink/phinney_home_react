@@ -4,7 +4,7 @@ import DiningWide from "../../assets/images/diningwide.jpg";
 
 export default function Home() {
   return (
-    <div>
+    <div className="offset-content -large">
       <img
         className="image -full"
         src={DiningWide}
