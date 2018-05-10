@@ -16,6 +16,7 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+  outline: none;
 }
 
 /* apply a natural box layout model to all elements */
@@ -27,7 +28,7 @@ a {
   box-sizing: border-box;
 }
 
-@import "./styles/layout.scss";
 @import "./styles/grid.scss";
+@import "./styles/layout.scss";
 @import "./styles/components/index.scss";
 @import "./styles/pages/index.scss";

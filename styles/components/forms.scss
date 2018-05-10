@@ -1,0 +1,77 @@
+form {
+  max-width: 500px;
+}
+
+input,
+textarea {
+  padding: $size-font-large;
+  font-size: $size-font-small;
+  margin: 5px 0 0;
+  width: 100%;
+  border: 1px solid $color-off-white;
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  border: 1px solid $color-light-gray;
+}
+
+input.invalid,
+textarea.invalid {
+  border: 1px solid $color-red;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: $color-light-gray;
+}
+textarea {
+  height: $layout-padding-large * 2;
+}
+
+textarea.-small {
+  height: $layout-padding-large;
+}
+
+textarea.-medium {
+  height: $layout-padding-large * 3;
+}
+
+textarea.-large {
+  height: $layout-padding-large * 5;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  padding: $size-font-small $size-font-xlarge;
+  font-size: $size-font-small;
+  font-weight: 400;
+  border: none;
+  // border-radius: 0;
+}
+
+button.submit {
+  background: $color-green;
+  color: $color-white;
+}
+
+button.submit:hover {
+  background: $color-green-hover;
+}
+
+button.submit:disabled {
+  background: $color-off-white;
+  color: $color-light-gray;
+}
+
+.error {
+  background: $color-off-white;
+  padding: 15px;
+  width: 100%;
+  border-left: 3px solid $color-red;
+  margin: 5px 0;
+  font-size: $size-font-small;
+  font-weight: 600;
+}

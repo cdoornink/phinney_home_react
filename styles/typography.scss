@@ -85,6 +85,13 @@ h6 {
   font-weight: 600;
 }
 
+.description-subheader {
+  color: $color-gray;
+  font-family: $brandon;
+  font-size: $size-font-medium;
+  font-weight: 400;
+}
+
 .description-body,
 p {
   color: $color-black;
